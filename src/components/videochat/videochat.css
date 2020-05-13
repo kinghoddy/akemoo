@@ -1,0 +1,36 @@
+.iframe {
+  width: 100%;
+  background: #222;
+  height: calc(100vh - 3rem);
+  position: relative;
+}
+.iframe iframe {
+  width: 100%;
+  height: 100%;
+}
+.brand {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background: black;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white; 
+}
+.brand h5 {
+  margin: 0;
+  font-weight: 600;
+}
+.brand img {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 760px) {
+  .iframe {
+    /* height: 35rem; */
+  }
+}

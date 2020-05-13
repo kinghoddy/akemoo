@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.form textarea {
+  background: rgba(255, 255, 255, 0.6);
+  color: #555;
+  border: 1px solid #dfdfdf;
+  padding: 1rem 1rem;
+  max-height: 10em;
+  width: 100%;
+}
+.form input {
+  border: 1px solid #dfdfdf;
+  padding: 1rem 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.form button {
+  padding: 0.8rem 0.7rem;
+  background: #252;
+  border: 0;
+  width: 100%;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 1200px) {
+  .form textarea {
+    width: 60%;
+    padding: 1rem 2rem;
+  }
+  .form input {
+    width: 12rem;
+    margin-bottom: 0;
+  }
+  .form button {
+    padding: 0.4rem 2rem;
+    width: unset;
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+}

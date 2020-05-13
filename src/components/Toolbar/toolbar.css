@@ -1,0 +1,11 @@
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.navbar img {
+  height: 2rem;
+}
+.navbar span {
+  font-weight: 400;
+  font-size: 2rem;
+}

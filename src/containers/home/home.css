@@ -1,0 +1,21 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/banner.jpeg");
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  height: calc(100vh - 3rem);
+  background-attachment: fixed;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.brand {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.tutImg {
+  height: 50vh;
+}

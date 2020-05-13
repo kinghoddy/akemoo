@@ -1,0 +1,14 @@
+{
+  "short_name": "OCSHS",
+  "name": "OCSHS",
+  "icons": [],
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "logo.jpeg",
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#28f",
+  "background_color": "#28f"
+}

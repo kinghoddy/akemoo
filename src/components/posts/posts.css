@@ -1,0 +1,37 @@
+.wrapper {
+  max-width: 50rem;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
+  margin: 1rem auto 3rem auto;
+  background: white;
+}
+.postHead {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.postHead > div {
+  margin-left: 1rem;
+}
+.postHead h5 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.postHead p {
+  color: #aaa;
+}
+.postHead > div * {
+  margin: 0;
+}
+.postHead img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  background: #ddd;
+}
+.postBody {
+  padding: 1rem;
+  color: #777;
+}
